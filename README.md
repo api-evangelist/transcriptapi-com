@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-transcriptapi-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://transcriptapi.com/
+TranscriptAPI provides a YouTube Transcript API with search, channel and playlist capabilities. It offers REST endpoints to retrieve video transcripts, search across videos, browse channels, and extract playlists, supporting both standard API access and YouTube MCP integration. The service processes over 15 million transcripts monthly, serving a large developer community with reliable, low-latency responses.
+
+**Areas:** Transcripts · YouTube API · Search · Content Extraction
+
+## transcriptapi-com on APIs.io
+
+Everything profiled for transcriptapi-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/transcriptapi-com/](https://apis.io/providers/transcriptapi-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [transcriptapi-com YouTube channel API](https://apis.io/apis/transcriptapi-com/transcriptapi-com-youtube-channel-api/) — Size up a channel and pull everything it publishes: subscriber and video counts, uploads, Shorts, live streams, playlists, community posts, sections, and…
+- [transcriptapi-com YouTube playlist API](https://apis.io/apis/transcriptapi-com/transcriptapi-com-youtube-playlist-api/) — Walk every video in a playlist, paginated: a full course, season, or collection, ready to process.
+- [transcriptapi-com YouTube search API](https://apis.io/apis/transcriptapi-com/transcriptapi-com-youtube-search-api/) — Find the videos, channels, playlists, or movies worth processing: search a topic, then filter by popularity, upload date, or duration to build a work queue.
+- [transcriptapi-com YouTube transcript API](https://apis.io/apis/transcriptapi-com/transcriptapi-com-youtube-transcript-api/) — Pull any video's transcript by URL or 11-character ID, with or without timestamps, as JSON or text. Check available languages first, then pull the exact track.
+- [transcriptapi-com YouTube video API](https://apis.io/apis/transcriptapi-com/transcriptapi-com-youtube-video-api/) — Get a video's stats and context without transcribing: view and like counts, publish date, the full description with its links extracted, and related videos.…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Transcriptapi Com Agentic Access](https://apis.io/agentic-access/transcriptapi-com/transcriptapi-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [APITranscriptResponseV2](https://apis.io/schemas/transcriptapi-com/transcriptapi-com-apitranscript-response-v2/)
+- [VideoInfoResponse](https://apis.io/schemas/transcriptapi-com/transcriptapi-com-app-api-v2-youtube-schemas-video-info-response/)
+- [VideoInfoResponse](https://apis.io/schemas/transcriptapi-com/transcriptapi-com-app-api-v2-youtube-schemas-youtube-video-info-response/)
+- [ChannelInfoResponse](https://apis.io/schemas/transcriptapi-com/transcriptapi-com-channel-info-response/)
+- [PlaylistVideosResponse](https://apis.io/schemas/transcriptapi-com/transcriptapi-com-playlist-videos-response/)
+- [SearchResponse](https://apis.io/schemas/transcriptapi-com/transcriptapi-com-search-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Transcriptapi Com Context](https://apis.io/jsonld/transcriptapi-com/transcriptapi-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [transcriptapi-com API Rules](https://apis.io/rules/transcriptapi-com/transcriptapi-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Transcriptapi Com Authentication](https://apis.io/security/transcriptapi-com/transcriptapi-com-authentication/)
+- [Transcriptapi Com Domain Security](https://apis.io/security/transcriptapi-com/transcriptapi-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://transcriptapi.com/)
+- [Documentation](https://transcriptapi.com/docs/)
+- [Getting started](https://transcriptapi.com/docs/getting-started/python/)
+- [API reference](https://transcriptapi.com/swagger)
+- [Pricing](https://transcriptapi.com/pricing)
+- [Sign up](https://transcriptapi.com/signup)
+- [Blog](https://transcriptapi.com/blog)
+- [Terms of service](https://transcriptapi.com/terms)
+- [Privacy policy](https://transcriptapi.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 51.4** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 63.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 44.7 |
+
+**Agent readiness 63.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/transcriptapi-com/](https://apis.io/providers/transcriptapi-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for transcriptapi-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/transcriptapi-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
